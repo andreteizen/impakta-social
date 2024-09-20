@@ -35,11 +35,11 @@ export default function Home() {
 
   return (
     <>
-      {/* <div className="container mx-auto mt-8 max-w-[560px]">
+      <div className="container mx-auto mt-8 max-w-[560px]">
         <div className="mb-4 flex items-center justify-between border-b border-dashed border-gray-900 pb-4">
           <h1 className="text-3xl font-semibold">Upload File</h1>
         </div>
-        <input
+        {/* <input
           type="file"
           ref={inputRef}
           onChange={(e) => {
@@ -61,8 +61,8 @@ export default function Home() {
             width={400}
             height={400}
           />
-        )}
-      </div> */}
+        )} */}
+      </div>
     </>
   )
 }
